@@ -1,24 +1,28 @@
 <!DOCTYPE html>
-<html lang="zh">
+<html lang="en">
 <head>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/vue.css">
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Description">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
 </head>
 <body>
-<div id="app">El Psy Congroo</div>
-<script>
+  <div id="app"></div>
+  <script>
     window.$docsify = {
-        name: 'Concept',
-        nameLink: '/',
-        repo: 'https://github.com/syuhtop/concept/',
-        search: 'auto',
-        loadNavbar: true,
-        loadSidebar: true,
-        auto2top: true
-    }
-</script>
-<script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+      loadSidebar: true,
+      // 侧栏顶部标题
+      name: '大山',
+      // 作者或者github地址
+      repo: '山与海',
+      // 显示侧边栏，要配合 _sidebar.md 一起
+      loadSidebar: true,
+      subMaxLevel: 2
+  }
+  </script>
+  <!-- Docsify v4 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
 </body>
 </html>
